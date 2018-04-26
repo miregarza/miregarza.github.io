@@ -2,3 +2,29 @@
     height:100vh;
     width: 100vw;
 }
+#contact{
+    position: relative;
+}
+#contact > .container{
+    top: 0px;
+}
+.callout h2{
+}
+
+#Email-link{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #00a1d8;
+    transition: color 0.3s ease-in-out;
+}
+#Email-link:hover{
+    color:#05518b;
+    text-decoration: none;
+}
+
+#about{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%), #c8dae0;
+}
+#fluff{
+    padding: 20px;
+}
