@@ -7,6 +7,12 @@
 }
 #contact > .container{
     top: 0px;
+    
+}
+.email-contact{
+    white-space:normal
+    overflow: hidden;
+    text-overflow:clip;
 }
 .callout h2{
 }
@@ -16,6 +22,7 @@
     font-weight: 800;
     color: #00a1d8;
     transition: color 0.3s ease-in-out;
+    overflow-wrap:break-word;
 }
 #Email-link:hover{
     color:#05518b;
